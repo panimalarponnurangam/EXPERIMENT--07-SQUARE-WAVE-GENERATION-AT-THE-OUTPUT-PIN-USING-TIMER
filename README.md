@@ -117,10 +117,10 @@ HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
  ![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/b9b56b08-9d4a-4ad5-8c7f-e0599ccb994d)
-
-![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/ad839504-aead-4f04-b4f5-c7db9fad1c5b)
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
+![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/ad839504-aead-4f04-b4f5-c7db9fad1c5b)
+
  ```
 Total Time period =4.1ms
 TON = 2ms
