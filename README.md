@@ -96,6 +96,17 @@ Step14. click on debug and simulate using simulation as shown below
   
 
 ## STM 32 CUBE PROGRAM :
+```
+NAME: Panimalar P
+Reg.No: 212222110031
+```
+```
+HAL_TIM_Base_Start(&htim2);                
+HAL_TIM_PWM_Init(&htim2);                  
+HAL_TIM_PWM_Start(&htim2,TIM_CHANNEL_1);
+```
+![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/196d9a39-1449-440c-8e3e-b2219a82fc69)
+
 
 
 
@@ -105,31 +116,51 @@ Step14. click on debug and simulate using simulation as shown below
  
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
- 
+ ![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/b9b56b08-9d4a-4ad5-8c7f-e0599ccb994d)
 
+![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/ad839504-aead-4f04-b4f5-c7db9fad1c5b)
 ## DUTY CYCLE AND FREQUENCY CALCULATION 
 FOR PULSE AT 500
-
-TON = 
-TOFF=
-TOTAL TIME = 
+ ```
+Total Time period =4.1ms
+TON = 2ms
+TOFF= 2ms
+TOTAL TIME = 4 
 FREQUENCY = 1/(TOTAL TIME)
+= 1/(410^-3)
+= 250Hz
+```
+
+
+
 
 FOR PULSE AT 700
+![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/0cf7fbea-303c-4980-b6b1-48096b29f23e)
 
-TON = 
-TOFF=
-TOTAL TIME = 
+
+```
+Total Time period = 3.11ms
+TON =  2.17ms
+TOFF= 0.93ms
+TOTAL TIME = 3.1 
 FREQUENCY = 1/(TOTAL TIME)
+= 1/(3.110^-3)
+= 322.58Hz
+```
 
 
 FOR PULSE AT 900
+![image](https://github.com/panimalarponnurangam/EXPERIMENT--07-SQUARE-WAVE-GENERATION-AT-THE-OUTPUT-PIN-USING-TIMER/assets/121490826/d0b89fdd-17cb-416f-ae27-bf01fa5bf33f)
 
-TON = 
-TOFF=
-TOTAL TIME = 
+```
+Total Time period = 3.21ms
+TON = 2.88ms
+TOFF= 0.32ms
+TOTAL TIME = 3.2 
 FREQUENCY = 1/(TOTAL TIME)
-
+= 1/(3.210^-30
+= 312.5Hz
+```
 
 ## Result :
 A PWM Signal is generated using the following frequency and various duty cycles are simulated 
